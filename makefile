@@ -5,7 +5,7 @@ main.exe :
 
 test :
 	@make main.exe
-	./main.exe
+	./main.exe dancing_men.txt
 	@make clean
 
 clean : 
